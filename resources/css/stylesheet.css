@@ -94,10 +94,14 @@ header {
 /* Locations */
 
 .locations-container {
+  margin-top: 60px;
   height: 500px;
   display: block;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center; 
 }
+
 
 .locations-container h2 {
   padding-top: 70px;
@@ -111,5 +115,27 @@ header {
   background-color: black;
   opacity: 1;
   margin: 15px 20px 0 20px;
-  padding: 20px 0 20px 0;
+  padding: 0 0 20px 0;
+}
+
+.place p {
+  padding-bottom: 10px
+}
+
+
+/* footer */
+
+.contact {
+  height: 200px;
+  text-align: center;
+}
+
+.content h5 {
+  padding: 20px;
+}
+
+.copyright {
+  margin-left: 20px;
+  text-align: left;
+  font-size: .75em;
 }
